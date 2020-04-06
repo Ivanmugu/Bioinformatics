@@ -9,7 +9,7 @@ import sys
 
 # checking the correct useage of the program
 if len(sys.argv) != 2:
-    sys.exit("usage: python fetch_aqc_MSP.py accession_list.txt")
+    sys.exit("usage: python fetch_sequence.py accession_list.txt")
 
 # opening the infile.txt list
 reader = open(sys.argv[1], 'r')
