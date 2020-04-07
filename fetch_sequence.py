@@ -24,7 +24,7 @@ reader.close()
 
 # working with Genebank
 # providing email address to Genebank
-Entrez.email = "ivan.munoz.gutierrez@gmail.com"
+Entrez.email = "ejemplo@gmail.com"
 
 # creating file to save the requested data from Genebank
 with open("results.csv", "w") as results:
