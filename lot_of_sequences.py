@@ -11,7 +11,7 @@ import csv
 import sys
 
 # provide email address to GeneBank
-Entrez.email = "ivan.munoz.guterrez@gmail.com"
+Entrez.email = "email@address.com"
 
 # using esearch to find the information, in this case we need
 # data from the sequences in the BioProject 43021
